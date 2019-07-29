@@ -13,9 +13,9 @@
 
 
 .item{
-    height: 200px;
-    width: 220px;
-    background-color: crimson;
+    height: 170px;
+    width: 150px;
+    background-color: #fffbfe;
     border-radius: 8px;
     -moz-osx-font-smoothing: grayscale;
     transform: translateZ(0);
@@ -30,7 +30,7 @@
 
 
 #section img{
-    height: 200px;
-    width: 220px;
+    width: 150px;
+    height: 130px;
     border-radius: 10px;
 }

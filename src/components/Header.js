@@ -30,10 +30,10 @@ class Header extends Component {
 
                                     <div>
                                         <h1 className='l-heading'>
-                                            Pets are so cool!
+                                            Beautiful animals!
                                         </h1>
                                         <p className='lead'>
-                                            Lorem ipsum dolor sit amet,consectetur adipisicing elit. Aliquid aperiam,
+                                            but this one is little bit scary!
                                         </p>
                                         <a onClick={this.onClick} href="#what" className='btn'>READ MORE!</a>
                                         <a href="#what" className='btn'>Community</a>
