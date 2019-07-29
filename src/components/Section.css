@@ -1,0 +1,36 @@
+
+
+
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+
+.item{
+    height: 200px;
+    width: 220px;
+    background-color: crimson;
+    border-radius: 8px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    backface-visibility: hidden;
+    margin: 1rem;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+
+#section img{
+    height: 200px;
+    width: 220px;
+    border-radius: 10px;
+}

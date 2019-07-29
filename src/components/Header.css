@@ -1,0 +1,54 @@
+
+
+/*showcase*/
+
+
+#showcase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    background: #333 url("../images/africa-gallery-3.jpg")
+    no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    background-color: rgba(17, 25, 36, 0.1);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+#showcase p{
+    color: #b7b7b7;
+}
+
+.header-image{
+    border-radius: 2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
