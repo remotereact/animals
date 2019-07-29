@@ -35,7 +35,7 @@ class Header extends Component {
                                         <p className='lead'>
                                             but this one is little bit scary!
                                         </p>
-                                        <a onClick={this.onClick} href="#what" className='btn'>READ MORE!</a>
+                                        <a onClick={this.onClick} href="#what" className='btn'>Give me some dogs!</a>
                                         <a href="#what" className='btn'>Community</a>
                                         <a href="#what" className='btn'>Twitter</a>
                                     </div>
