@@ -10,7 +10,6 @@ class Animal extends Component {
         return (
             <div className='dogs-grid'>
                 <img src={animalData[0].url} alt=""/>
-                <p>{animalData[0].id}</p>
             </div>
         )
     }

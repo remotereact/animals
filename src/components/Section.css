@@ -3,19 +3,18 @@
 
 .item-container{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,auto);
     align-items: center;
     justify-content: center;
     justify-items: center;
     align-content: center;
-    margin: 1rem;
+    background-color: #b7b7b7;
 }
 
 
 .item{
     height: 170px;
     width: 150px;
-    background-color: #fffbfe;
     border-radius: 8px;
     -moz-osx-font-smoothing: grayscale;
     transform: translateZ(0);

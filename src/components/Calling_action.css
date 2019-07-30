@@ -1,7 +1,5 @@
-
-
-.dogs-grid{
+.animal-search{
     display: flex;
     justify-content: center;
-
+    align-self: center;
 }
