@@ -19,17 +19,13 @@
 ;
 }
 
-#showcase .showcase-content{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    height: 100%;
-    background-color: rgba(17, 25, 36, 0.1);
-    border-radius: 2rem;
-    padding: 1rem;
+@media(max-width: 768px) {
+    #showcase{
+        grid-template-columns: 1fr;
+    }
 }
+
+
 #showcase p{
     color: #b7b7b7;
 }

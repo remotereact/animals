@@ -10,6 +10,18 @@
     align-content: center;
     background-color: #b7b7b7;
 }
+@media(max-width: 768px) {
+    .item-container{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media(max-width: 500px) {
+    .item-container{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
 
 
 .item{
